@@ -1,8 +1,10 @@
-# onero 机械臂及关节电机资料
+# onero Robotic Arm & Actuator Documentation
 
-本目录的文档是机械臂或关节电机资料，按中英文分类存放。
+Documentation for the onero Robotic Arm and actuator modules, organized by language.
 
-## 目录结构
+onero 机械臂及关节电机资料，按中英文分类存放。
+
+## Directory Structure / 目录结构
 
 ```
 ├── zh/                                  # 中文文档
@@ -25,9 +27,9 @@
 │   └── tools/                           # Debugging Tool
 │       └── Debug_Tool_Quick_Guide.pdf
 │
-├── cad/                                 # CAD 图纸
-│   ├── arm/                             # 机械臂（待补充）
-│   └── actuator/                        # 关节模组
+├── cad/                                 # CAD drawings / CAD 图纸
+│   ├── arm/                             # Robotic Arm (TBD / 待补充)
+│   └── actuator/                        # Actuator / 关节模组
 │       ├── XD5746-1_2d.pdf
 │       ├── XD5746-1_3d.stp
 │       ├── XD5746-2_2d.pdf
@@ -37,11 +39,11 @@
 │       ├── XD5757-2_2d.pdf
 │       └── XD5757-2_3d.stp
 │
-└── tools/                               # 调试上位机软件
+└── tools/                               # Debug software / 调试上位机软件
     └── motor_debug_tool_v1.0.2.zip
 ```
 
-## 机械臂开发工程
+## Development Resources / 开发工程
 
-- C/C++、Python 工程：https://github.com/OpenWonderLabs/ArmApi
-- ROS2 工程：https://github.com/OpenWonderLabs/ArmRos
+- C/C++, Python SDK: https://github.com/OpenWonderLabs/ArmApi
+- ROS2: https://github.com/OpenWonderLabs/ArmRos
