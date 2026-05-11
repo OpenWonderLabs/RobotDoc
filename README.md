@@ -1,8 +1,27 @@
 # onero Robotic Arm & Actuator Documentation
 
-Documentation for the onero Robotic Arm and actuator modules, organized by language.
+This repository contains the official documentation, CAD drawings, and debugging tools for the **onero Robotic Arm A1** and its **actuator modules** (XD5746 / XD5757), developed by OneRobotics (Shenzhen) Co., Ltd. All documents are provided in both English and Chinese.
 
-onero 机械臂及关节电机资料，按中英文分类存放。
+本仓库包含 **onero A1 机械臂**及其**关节模组**（XD5746 / XD5757）的产品文档、CAD 图纸和调试工具，由卧安机器人（深圳）股份有限公司开发。文档按中英文分类存放。
+
+## Product Overview / 产品简介
+
+**onero Robotic Arm A1** is a 7-DOF (7 degrees of freedom) modular robotic arm designed for education, research, and industrial automation, with a maximum payload of 3 kg. It is available in three configurations: A1L (left arm), A1R (right arm), and A1S (dual arm).
+
+**onero A1 机械臂**是一款 7 自由度模块化机械臂，适用于教育科研和工业自动化场景，最大负载 3 kg。提供三种型号：A1L（左臂）、A1R（右臂）和 A1S（双臂）。
+
+**Actuator Modules / 关节模组：**
+
+| Model | Rated Torque | Gear Ratio | Dimensions | Weight |
+|-------|-------------|------------|------------|--------|
+| XD5746-1 (radial cable) | 3 N.m | 10:1 | Φ57 × 46 mm | 320 g |
+| XD5746-2 (axial cable) | 3 N.m | 10:1 | Φ57 × 46 mm | 320 g |
+| XD5757-1 (radial cable) | 15 N.m | 48.19:1 | Φ57 × 56.5 mm | 390 g |
+| XD5757-2 (axial cable) | 15 N.m | 48.19:1 | Φ57 × 56.5 mm | 390 g |
+
+Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V power input, position / velocity / torque / MIT hybrid control modes.
+
+主要特性：21 位双编码器、CAN 2.0 通信（1 Mbps）、20–55 V 宽电压供电、支持位置/速度/力矩/MIT 混合控制模式。
 
 ## Directory Structure / 目录结构
 
