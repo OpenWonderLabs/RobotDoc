@@ -30,21 +30,17 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │   ├── arm/                             # 机械臂
 │   │   ├── A1_产品说明书.pdf
 │   │   └── A1_快速入门手册.pdf
-│   ├── actuator/                        # 关节模组
-│   │   ├── 关节说明书.pdf
-│   │   └── 通信协议.pdf
-│   └── tools/                           # 调试工具说明
-│       └── 调试工具使用说明.pdf
+│   └── actuator/                        # 关节模组
+│       ├── 关节说明书.pdf
+│       └── 通信协议.pdf
 │
 ├── en/                                  # English docs
 │   ├── arm/                             # Robotic Arm
 │   │   ├── A1_Product_Manual.pdf
 │   │   └── A1_User_Guide.pdf
-│   ├── actuator/                        # Actuator
-│   │   ├── Actuator_User_Guide.pdf
-│   │   └── Actuator_Communication_Protocol.pdf
-│   └── tools/                           # Debugging Tool
-│       └── Debug_Tool_Quick_Guide.pdf
+│   └── actuator/                        # Actuator
+│       ├── Actuator_User_Guide.pdf
+│       └── Actuator_Communication_Protocol.pdf
 │
 ├── cad/                                 # CAD drawings / CAD 图纸
 │   ├── arm/                             # Robotic Arm (TBD / 待补充)
@@ -58,8 +54,11 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │       ├── XD5757-2_2d.pdf
 │       └── XD5757-2_3d.stp
 │
-└── tools/                               # Debug software / 调试上位机软件
-    └── motor_debug_tool_v1.0.2.zip
+└── tools/                               # Actuator debug tool / 关节电机调试工具
+    ├── README.md
+    ├── motor_debug_tool_v1.0.2.zip      # Debug software / 调试软件
+    ├── Debug_Tool_Quick_Guide.pdf       # Quick guide (EN)
+    └── 调试工具使用说明.pdf               # 使用说明（中文）
 ```
 
 ## Development Resources / 开发工程
