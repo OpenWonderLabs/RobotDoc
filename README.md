@@ -43,7 +43,9 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │       └── Actuator_Communication_Protocol.pdf
 │
 ├── cad/                                 # CAD drawings / CAD 图纸
-│   ├── arm/                             # Robotic Arm (TBD / 待补充)
+│   ├── arm/                             # Robotic Arm / 机械臂
+│   │   ├── A1L_3d.stp
+│   │   └── A1R_3d.stp
 │   └── actuator/                        # Actuator / 关节模组
 │       ├── XD5746-1_2d.pdf
 │       ├── XD5746-1_3d.stp
