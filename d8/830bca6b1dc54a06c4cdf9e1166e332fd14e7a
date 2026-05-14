@@ -1,0 +1,22 @@
+tools/README.md
+  s_7638dbc5ecc9f2::t_ed7461638b509a 12-13
+README.md
+  s_7638dbc5ecc9f2::t_c743ae81d5f494 29,37
+  s_7638dbc5ecc9f2::t_a6fcfe9d51bd19 35,43,62-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "d8830bca6b1dc54a06c4cdf9e1166e332fd14e7a",
+  "prompts": {},
+  "sessions": {
+    "s_7638dbc5ecc9f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd6f8704-a6e6-4ddf-98e8-8147522ea452",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "songan <songan@wondertechlabs.com>"
+    }
+  }
+}
