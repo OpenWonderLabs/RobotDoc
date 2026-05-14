@@ -9,8 +9,8 @@ This directory contains the debugging tool and documentation for onero actuator 
 | File | Description |
 |------|-------------|
 | `motor_debug_tool_v1.0.2.zip` | Debug software / 调试上位机软件 |
-| `Debug_Tool_Quick_Guide.pdf` | Quick guide (English) |
-| `调试工具使用说明.pdf` | 使用说明（中文） |
+| `Debugging Tool Quick Guide.pdf` | Quick guide (English) |
+| `关节调试上位机使用说明.pdf` | 使用说明（中文） |
 
 ## Connection / 连接方式
 
