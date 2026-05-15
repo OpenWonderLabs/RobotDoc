@@ -39,7 +39,7 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │   │   ├── A1_Product_Manual.pdf
 │   │   └── A1_User_Guide.pdf
 │   └── actuator/                        # Actuator
-│       ├── Actuator_User_Guide.pdf
+│       ├── onero Actuator User Guide.pdf
 │       └── Communication Protocol for the onero Actuator.pdf
 │
 ├── cad/                                 # CAD drawings / CAD 图纸
