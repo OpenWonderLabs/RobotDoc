@@ -1,0 +1,21 @@
+README.md
+  s_b699d9fbcffea9::t_ee86a41af52176 29,35,37,42-43,62-63
+tools/README.md
+  s_b699d9fbcffea9::t_3431818cd710ab 12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "5649f263c97b24b7613fc6a4c28b6915dda9b5c7",
+  "prompts": {},
+  "sessions": {
+    "s_b699d9fbcffea9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "718fc00b-f12f-4ac3-ad58-d8e9c63cccab",
+        "model": "unknown"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
