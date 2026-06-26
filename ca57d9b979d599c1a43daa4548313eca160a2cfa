@@ -1,0 +1,19 @@
+README.md
+  s_7638dbc5ecc9f2::t_ece0521402da55 42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "ca57d9b979d599c1a43daa4548313eca160a2cfa",
+  "prompts": {},
+  "sessions": {
+    "s_7638dbc5ecc9f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd6f8704-a6e6-4ddf-98e8-8147522ea452",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "songan <songan@wondertechlabs.com>"
+    }
+  }
+}
