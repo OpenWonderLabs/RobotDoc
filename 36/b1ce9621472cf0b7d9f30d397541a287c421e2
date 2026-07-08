@@ -1,0 +1,19 @@
+cad/gripper/gripper_3d.stp
+  s_bb584844c3cb68::t_abda3702864144 1-296846
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "36b1ce9621472cf0b7d9f30d397541a287c421e2",
+  "prompts": {},
+  "sessions": {
+    "s_bb584844c3cb68": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "437c5d19-1c20-4bee-937f-52e71a296632",
+        "model": "unknown"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
