@@ -1,8 +1,8 @@
-# onero Robotic Arm & Actuator Documentation
+# onero Robotic Arm, Actuator & Gripper Documentation
 
-This repository contains the official documentation, CAD drawings, and debugging tools for the **onero Robotic Arm A1** and its **actuator modules** (XD5746 / XD5757), developed by OneRobotics (Shenzhen) Co., Ltd. All documents are provided in both English and Chinese.
+This repository contains the official documentation, CAD drawings, and debugging tools for the **onero Robotic Arm A1**, its **actuator modules** (XD5746 / XD5757), and gripper accessories, developed by OneRobotics (Shenzhen) Co., Ltd. Documents are organized by language and product category.
 
-本仓库包含 **onero A1 机械臂**及其**关节模组**（XD5746 / XD5757）的产品文档、CAD 图纸和调试工具，由卧安机器人（深圳）股份有限公司开发。文档按中英文分类存放。
+本仓库包含 **onero A1 机械臂**、**关节模组**（XD5746 / XD5757）及夹爪配件的产品文档、CAD 图纸和调试工具，由卧安机器人（深圳）股份有限公司开发。文档按语言和产品类别分类存放。
 
 ## Product Overview / 产品简介
 
@@ -30,31 +30,40 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │   ├── arm/                             # 机械臂
 │   │   ├── A1_产品说明书.pdf
 │   │   └── A1_快速入门手册.pdf
-│   └── actuator/                        # 关节模组
-│       ├── 关节说明书.pdf
-│       └── onero Actuator通信协议.pdf
+│   ├── actuator/                        # 关节模组
+│   │   ├── 关节说明书.pdf
+│   │   └── onero Actuator通信协议.pdf
+│   └── gripper/                         # 夹爪
+│       └── 夹爪产品规格书.pdf
 │
 ├── english/                             # English docs
 │   ├── arm/                             # Robotic Arm
 │   │   ├── A1_Product_Manual.pdf
 │   │   └── A1_User_Guide.pdf
-│   └── actuator/                        # Actuator
-│       ├── onero Actuator User Guide.pdf
-│       └── Communication Protocol for the onero Actuator.pdf
+│   ├── actuator/                        # Actuator
+│   │   ├── onero Actuator User Guide.pdf
+│   │   └── Communication Protocol for the onero Actuator.pdf
+│   └── gripper/                         # Gripper
+│       └── Gripper_User_Guide.pdf
 │
 ├── cad/                                 # CAD drawings / CAD 图纸
 │   ├── arm/                             # Robotic Arm / 机械臂
 │   │   ├── A1L_3d.stp
 │   │   └── A1R_3d.stp
-│   └── actuator/                        # Actuator / 关节模组
-│       ├── XD5746-1_2d.pdf
-│       ├── XD5746-1_3d.stp
-│       ├── XD5746-2_2d.pdf
-│       ├── XD5746-2_3d.stp
-│       ├── XD5757-1_2d.pdf
-│       ├── XD5757-1_3d.stp
-│       ├── XD5757-2_2d.pdf
-│       └── XD5757-2_3d.stp
+│   ├── actuator/                        # Actuator / 关节模组
+│   │   ├── XD5746-1_2d.pdf
+│   │   ├── XD5746-1_3d.stp
+│   │   ├── XD5746-2_2d.pdf
+│   │   ├── XD5746-2_3d.stp
+│   │   ├── XD5757-1_2d.pdf
+│   │   ├── XD5757-1_3d.stp
+│   │   ├── XD5757-2_2d.pdf
+│   │   └── XD5757-2_3d.stp
+│   └── gripper/                         # Gripper / 夹爪
+│       ├── gripper_2d_closed.pdf
+│       ├── gripper_2d_mounting_adapter.pdf
+│       ├── gripper_2d_open.pdf
+│       └── gripper_3d.stp
 │
 └── tools/                               # Actuator debug tool / 关节电机调试工具
     ├── README.md
