@@ -1,0 +1,31 @@
+README.md
+  s_51a243d60fdc21::t_9979a62cca7520 1,53
+  s_51a243d60fdc21::t_88487c42029017 54-61
+  s_51a243d60fdc21::t_fabd7ab7c8c4fb 3,5,33-37,43-47,62-66
+cad/gripper/gripper_3d.stp
+  s_bb584844c3cb68::t_abda3702864144 1-296846
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "46c7329c1dcc77970b3d9a1c1272de0150b35c15",
+  "prompts": {},
+  "sessions": {
+    "s_51a243d60fdc21": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f41c3-f036-7b90-9904-fcbe7a0722e9",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_bb584844c3cb68": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "437c5d19-1c20-4bee-937f-52e71a296632",
+        "model": "unknown"
+      },
+      "human_author": "ljgabc <ljgabc@gmail.com>"
+    }
+  }
+}
