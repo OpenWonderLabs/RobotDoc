@@ -1,0 +1,27 @@
+.gitattributes
+  s_3e3ec3fa940d2d::t_43b5d395bf742d 1
+chinese/videos/A1机械臂安装教程.mp4
+  s_3e3ec3fa940d2d::t_1d0c798736f2a6 1-3
+chinese/videos/机械臂示教.mp4
+  s_3e3ec3fa940d2d::t_b378ca9b3008cc 1-3
+"english/videos/Drag Teaching.mp4"
+  s_3e3ec3fa940d2d::t_d50002619b8a42 1-3
+"english/videos/onero Robotic Arm A1 Installation Guide.mp4"
+  s_3e3ec3fa940d2d::t_c9c1a7a97984ac 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "ff66a0ee8bdcda797851ea54a7837b2939b90657",
+  "prompts": {},
+  "sessions": {
+    "s_3e3ec3fa940d2d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "53f26ed1-98ae-409c-9735-4aab7f86fbca",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "贺籽翔 <hezixiang@onero.com>"
+    }
+  }
+}
