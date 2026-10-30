@@ -1,0 +1,28 @@
+README.md
+  s_d6aa5180c86ed8::t_29e8ad2d53e9bd 32,37,39-40,45,50,52-53
+  s_d6aa5180c86ed8::t_2cb77246d000c3 76-77
+  s_d6aa5180c86ed8::t_f756927040a496 29-30,33,36,38,42-43,46,49,51,55-56,59,68,74
+  h_d4092814de87f4 83
+  s_d6aa5180c86ed8::t_6441f6fd7e19c4 78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3137cd4f5debf585beb0a10db69b459157be44c4",
+  "prompts": {},
+  "humans": {
+    "h_d4092814de87f4": {
+      "author": "songan <songan@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_d6aa5180c86ed8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18bbb-53f7-7443-a06e-4492c9b52170",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    }
+  }
+}
