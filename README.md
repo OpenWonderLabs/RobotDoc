@@ -26,31 +26,37 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 ## Directory Structure / 目录结构
 
 ```
-├── chinese/                             # 中文文档
-│   ├── arm/                             # 机械臂
+├── chinese/                            # 中文文档
+│   ├── arm/                            # 机械臂
 │   │   ├── A1_产品说明书.pdf
-│   │   └── A1_快速入门手册.pdf
-│   ├── actuator/                        # 关节模组
+│   │   └── onero Robotic Arm A1机械臂快速入门用户手册.pdf
+│   ├── actuator/                       # 关节模组
 │   │   ├── 关节说明书.pdf
 │   │   └── onero Actuator通信协议.pdf
-│   └── gripper/                         # 夹爪
-│       └── 夹爪产品规格书.pdf
+│   ├── gripper/                        # 夹爪
+│   │   └── 夹爪产品规格书.pdf
+│   └── videos/                         # 视频教程
+│       ├── A1机械臂安装教程.mp4
+│       └── 机械臂示教.mp4
 │
-├── english/                             # English docs
-│   ├── arm/                             # Robotic Arm
+├── english/                            # English docs
+│   ├── arm/                            # Robotic Arm
 │   │   ├── A1_Product_Manual.pdf
-│   │   └── A1_User_Guide.pdf
-│   ├── actuator/                        # Actuator
+│   │   └── onero Robotic Arm A1 User Guide.pdf
+│   ├── actuator/                       # Actuator
 │   │   ├── onero Actuator User Guide.pdf
 │   │   └── Communication Protocol for the onero Actuator.pdf
-│   └── gripper/                         # Gripper
-│       └── Gripper_User_Guide.pdf
+│   ├── gripper/                        # Gripper
+│   │   └── Gripper_User_Guide.pdf
+│   └── videos/                         # Video tutorials
+│       ├── onero Robotic Arm A1 Installation Guide.mp4
+│       └── Drag Teaching.mp4
 │
-├── cad/                                 # CAD drawings / CAD 图纸
-│   ├── arm/                             # Robotic Arm / 机械臂
+├── cad/                                # CAD drawings / CAD 图纸
+│   ├── arm/                            # Robotic Arm / 机械臂
 │   │   ├── A1L_3d.stp
 │   │   └── A1R_3d.stp
-│   ├── actuator/                        # Actuator / 关节模组
+│   ├── actuator/                       # Actuator / 关节模组
 │   │   ├── XD5746-1_2d.pdf
 │   │   ├── XD5746-1_3d.stp
 │   │   ├── XD5746-2_2d.pdf
@@ -59,20 +65,20 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │   │   ├── XD5757-1_3d.stp
 │   │   ├── XD5757-2_2d.pdf
 │   │   └── XD5757-2_3d.stp
-│   └── gripper/                         # Gripper / 夹爪
+│   └── gripper/                        # Gripper / 夹爪
 │       ├── gripper_2d_closed.pdf
 │       ├── gripper_2d_mounting_adapter.pdf
 │       ├── gripper_2d_open.pdf
 │       └── gripper_3d.stp
 │
-└── tools/                               # Actuator debug tool / 关节电机调试工具
+└── tools/                              # Actuator debug tool / 关节电机调试工具
     ├── README.md
-    ├── motor_debug_tool_v1.0.2.zip      # Debug software / 调试软件
-    ├── Debugging Tool Quick Guide.pdf   # Quick guide (EN)
-    └── 关节调试上位机使用说明.pdf         # 使用说明（中文）
+    ├── motor_debug_tool_v1.0.2.zip     # Debug software / 调试软件
+    ├── Debugging Tool Quick Guide.pdf  # Quick guide (EN)
+    └── 关节调试上位机使用说明.pdf          # 使用说明（中文）
 ```
 
 ## Development Resources / 开发工程
 
-- C/C++, Python SDK: https://github.com/OpenWonderLabs/ArmApi
+- Python SDK: https://pypi.org/project/onero-sdk
 - ROS2: https://github.com/OpenWonderLabs/ArmRos
