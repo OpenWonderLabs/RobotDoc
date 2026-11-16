@@ -34,7 +34,9 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │   │   ├── 关节说明书.pdf
 │   │   └── onero Actuator通信协议.pdf
 │   ├── gripper/                        # 夹爪
-│   │   └── 夹爪产品规格书.pdf
+│   │   ├── 夹爪产品规格书.pdf
+│   │   └── protocol/
+│   │       └── A1夹爪CAN通信协议.md
 │   └── videos/                         # 视频教程
 │       ├── A1机械臂安装教程.mp4
 │       └── 机械臂示教.mp4
@@ -47,7 +49,9 @@ Key features: 21-bit dual encoder, CAN 2.0 communication (1 Mbps), 20–55 V pow
 │   │   ├── onero Actuator User Guide.pdf
 │   │   └── Communication Protocol for the onero Actuator.pdf
 │   ├── gripper/                        # Gripper
-│   │   └── Gripper_User_Guide.pdf
+│   │   ├── Gripper_User_Guide.pdf
+│   │   └── protocol/
+│   │       └── A1_Gripper_CAN_Protocol.md
 │   └── videos/                         # Video tutorials
 │       ├── onero Robotic Arm A1 Installation Guide.mp4
 │       └── Drag Teaching.mp4
